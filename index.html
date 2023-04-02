@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+   
+      
+    
+    
+        
+</style>
+<body>
+   
+
+    <header>
+        <div class="container ">
+            <div class="logo">
+                <img class="vector" src="icons8.png.png" alt="logo">
+                <a class="text_logo">Travel Portal</a>
+            </div>   
+
+                <nav class="nav"> 
+                    <ul class="menus" >
+                        <li class="menu"><a href="#1" class="text_link">How it works</a> </li>
+                        <li class="menu"><a  href="#2" class="text_link">Plan Your Trip</a> </li>
+                        <li class="menu"><a  href="#3" class="text_link">Destinations</a> </li>
+                        <li class="menu"><a  href="#4" class="text_link">Trevel Stories</a> </li>
+                        <li class="menu none"><a  href="#5" class="text_link" onclick="document.getElementById('id01').style.display='block'">Account</a> </li>
+                        <li class="menu none"><a  href="#6" class="text_link">Social Media</a> </li>
+                    </ul>
+                    <div class="header_nav_close">
+                        <span class="nav_close"></span>
+                        <span class="nav_close"></span>
+                    </div>
+                </nav>  
+                
+                    <!-- burger menu start -->
+                <div class="header_burger burger">
+                    <span class="burger_line burger_line_f" ></span>
+                    <span class="burger_line burger_line_2" ></span>
+                    <span class="burger_line burger_line_t" ></span>
+                </div>
+                <!-- burger menu end -->
+
+
+
+                <div class="header__buttons">
+                    <button class="button-border" onclick="document.getElementById('id01').style.display='block'">Login</button> 
+                
+                    <div id="id01" class="modal">
+        
+                        <form class="modal-content animate" action="">
+                    
+                            <div>
+                                <h2 class="pop_h2">Log in to your account</h2>
+                        
+                                <button class="pop_button_1"  title="Вход через Facebook"><img src="Facebook Logo.png" class="img_pop_1">Sign In with Facebook</button>
+                                <button class="pop_button_2" title="Вход через Google"><img src="Google Logo.png" class="img_pop_1">Sign In with Facebook</button>
+                                
+                               <span style="display: flex ;"> 
+                                    <hr class="horisont_line1">
+                                    <p class="line">or</p>
+                                    <hr class="horisont_line2">
+                               </span>
+                                <label><b class="pop_p">E-mail</b></label><br>
+                                <input class="pop_input" type="text"  ><br>
+                        
+                                <label><b class="pop_p">Password</b></label><br>
+                                <input class="pop_input" type="password" >
+                                
+                                <button class="pop_button" type="submit">Login</button>
+                                <p class="pop_a"> <a href="#" class="pop_a"> Forgot Your Password?</a></p>
+                                <hr class="horisont_line">
+                                <p class="pop_a">Don’t have an account? <a href="#" >Register</a> </p>  
+                            </div>
+                    
+                        </form>
+                    </div>
+                  
+                        <script>
+                        // Get the modal
+                        let modal = document.getElementById('id01');
+                        
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                        
+
+                        </script>
+
+
+                </div>
+            </div>
+        
+        </div>
+
+        
+        
+    </header>
+    
+    <main class=>
+
+        
+             <section class="part_1" >
+                <div class="container">
+                    <span class="header_background">
+                        <h1 id="1" class="text_h1 ">Explorer the buaty of <br> the World</h1>
+                        <p class="text_part_1">Receive personalized recommendations for countries, hotels, activities and more</p>
+                    
+                        <div class="pt-site-footer__submit">
+                            <input class="botton_part" type="text" placeholder="What would you like to do?" />
+                            <button class="botton_three" >Start Planning</button>
+                        </div>
+                    </span>
+                </div>
+            </section>    
+        
+
+    
+        
+       
+      
+
+       
+        
+        <section class="part_2">
+            <div class="container fix">
+                
+                    <h2 id="2" class="text_part_2">3 STEPS TO THE PERFECT TRIP</h2>
+                    <div class="steps">     
+                        <span  class="step_1">
+                                <img class="img_size" src="Frame 28.png">
+                                <p class="text_part_2_p">Tell us what you want to do</p>
+                            </span >
+                            <span class="step_2">
+                                <img class="img_size"  src="Frame 11.png">
+                                <p class="text_part_2_p">Share us preferable dates </p>
+                            </span>
+                            <span class="step_3">
+                                <img class="img_size"  src="Frame 12.png">
+                                <p class="text_part_2_p">We will give you recommendations</p>
+                            </span>       
+                    </div>
+                
+            </div>    
+        </section>
+
+
+
+
+
+
+
+
+        <section class="part_3">
+            <div class="container">
+                <h2 id="3" class="text_part_3_h2">POPULAR DESTINATIONS</h2>
+            </div>    
+     <div class="part-3-sl">
+        <div class="items">
+            <div class="item active">
+                <img src="./Rectangle 35.png">
+            </div>
+            <div class="item">
+                <img src="./Rectangle 34.png">
+            </div>
+            <div class="item prev">
+                <img src="./Rectangle 26.png">
+            </div>
+            <div class="button-container">
+                <div class="button"><i class="fas fa-angle-left"></i></div>
+                <div class="button"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div> 
+    </div>
+    
+    </section>
+
+
+
+        <h2 class="text_part_4_h2" id="4">TRAVEL STORIES</h2>
+    </main>    
+        
+    <div class="part_4">
+            <section >
+                       
+                <div class="back_img">
+                    <div class="container fix">
+                       
+                        
+                            <span class="story">
+                                <img class="img_fix" src="Rectangle 15.png">
+                                <div class="text_part_4">
+                                    <h3 class="text_part_4_h3">10 Photos of Attractive Thailand</h3>
+                                    <p class="text_part_4_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href=""> Read More </a></p>
+                                </div>    
+                                </span>
+                            <span class="story">
+                                <img class="img_fix" src="Rectangle 16.png">
+                                <div class="text_part_4">
+                                    <h3 class="text_part_4_h3">Canyonlands National Park, Utah</h3>
+                                    <p class="text_part_4_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<a href=""> Read More </a></p>
+                                </div>    
+                                </span>
+                            <span class="story">
+                                <img class="img_fix" src="Rectangle 17.png">
+                                <div class="text_part_4">
+                                    <h3 class="text_part_4_h3">I left my heart in the Mountains!</h3>
+                                    <p class="text_part_4_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href=""> Read More </a></p>
+                                </div>    
+                            </span>
+                            <span class="story">
+                                <img class="img_fix" src="Rectangle 17 (1).png">
+                                <div class="text_part_4">
+                                    <h3 class="text_part_4_h3">The Longest journey in my life!</h3>
+                                    <p class="text_part_4_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href=""> Read More </a></p>
+                                </div>
+                            </span>
+                            
+                                <button class="footer-button "><span class="con"> &rarr; </span>See More</button> 
+                         
+                    </div>
+                </div>
+            
+        </section>
+    
+    <footer id="6" class=>
+        <div class="footer_icon_media">
+            <span><p class="text_footer">All Rights Reserved © Travel Portal</p></span>
+            <div class="icon_media"> 
+                <span><a class="icons" href="sample.html" target="_blank"><img src="Vector.png" width="33.65" 
+                height="33.65" alt="social media"></a></span>
+                <span><a class="icons"  href="sample.html"><img src="akar-icons_video.png" width="33.65" 
+                height="33.65" alt="social media"></a></span>
+                <span><a class="icons"  href="sample.html"><img src="akar-icons_twitter-fill.png" width="33.65" 
+                height="33.65" alt="social media"></a></span>
+            </div>
+    </div>
+    </footer>
+</div>
+<script src="./script.js"></script>
+</body>
+
+</html>
+
